@@ -10,7 +10,6 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    container: postgres12
       services:
         postgres:
           image: postgres:14-alpine
