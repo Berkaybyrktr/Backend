@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment="" />
+    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Api/Account.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/account_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/transfer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Util/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mock/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/sqlc/querier.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gqlgen.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/generated/generated.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/model/models_gen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/resolver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/schema.resolvers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Util/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/Util/random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migration/000001_init_schema.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/migration/000001_init_schema.up.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/query/account.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/query/account.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/entry.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/entry.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sqlc.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +58,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CTUyDWq9nky9bXSHJ03cnNmsyj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,29 +88,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Go Test.go test github/techschool/simplebank/db/sqlc">
-    <configuration name="TestCreateAccount in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github/techschool/simplebank/Api">
+    <configuration name="go build github/techschool/simplebank" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/db/sqlc" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/db/sqlc" />
+      <package value="github/techschool/simplebank" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCreateAccount\E$" />
+      <filePath value="$PROJECT_DIR$/server.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestListAccounts in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetAccountApi in github/techschool/simplebank/Api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/db/sqlc" />
+      <working_directory value="$PROJECT_DIR$/Api" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/db/sqlc" />
+      <package value="github/techschool/simplebank/Api" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestListAccounts\E$" />
+      <pattern value="^\QTestGetAccountApi\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestTransferTx in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -89,16 +122,15 @@
       <pattern value="^\QTestTransferTx\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTransferTxDeadlock in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github/techschool/simplebank/Api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/db/sqlc" />
+      <working_directory value="$PROJECT_DIR$/Api" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/db/sqlc" />
+      <package value="github/techschool/simplebank/Api" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestTransferTxDeadlock\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -114,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github/techschool/simplebank/Api" />
+        <item itemvalue="Go Test.TestGetAccountApi in github/techschool/simplebank/Api" />
         <item itemvalue="Go Test.go test github/techschool/simplebank/db/sqlc" />
         <item itemvalue="Go Test.TestTransferTx in github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Test.TestTransferTxDeadlock in github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Test.TestCreateAccount in github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Test.TestListAccounts in github/techschool/simplebank/db/sqlc" />
+        <item itemvalue="Go Build.go build github/techschool/simplebank" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +168,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
