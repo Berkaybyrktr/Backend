@@ -4,39 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Api/Account.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/account_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/transfer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mock/store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/querier.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gqlgen.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/generated/generated.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/model/models_gen.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/resolver.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/schema.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/schema.resolvers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools.go" afterDir="false" />
+    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/Api/validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Util/currency.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/Util/random.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migration/000001_init_schema.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/migration/000001_init_schema.up.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/query/account.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/query/account.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/entry.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/entry.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/models.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sqlc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Account.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/transfer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
