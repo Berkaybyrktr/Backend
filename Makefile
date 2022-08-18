@@ -14,8 +14,6 @@ test:
 	go test -v -cover ./...
 server:
 	go run main.go
-graphql:
-	go run server.go
 mock:
 	mockgen -package mockdb -destination db/mock/store.go  github/techschool/simplebank/db/sqlc Store
 graphile:
