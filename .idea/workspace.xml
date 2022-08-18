@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Api/validator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/currency.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/query/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/sqlc/user.sql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/sqlc/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Account.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/Api/transfer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.env" beforeDir="false" afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mock/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/mock/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/querier.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/querier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,29 +69,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Go Test.go test github/techschool/simplebank/Api">
-    <configuration name="go build github/techschool/simplebank" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/server.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestGetAccountApi in github/techschool/simplebank/Api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/Api" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/Api" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGetAccountApi\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTransferTx in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Makefile Target.test">
+    <configuration name="TestGetUser in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SimpleBank" />
       <working_directory value="$PROJECT_DIR$/db/sqlc" />
       <root_directory value="$PROJECT_DIR$" />
@@ -93,18 +79,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestTransferTx\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github/techschool/simplebank/Api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/Api" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/Api" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <pattern value="^\QTestGetUser\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -118,13 +93,33 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="migratedown" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migratedown" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github/techschool/simplebank/Api" />
-        <item itemvalue="Go Test.TestGetAccountApi in github/techschool/simplebank/Api" />
+        <item itemvalue="Makefile Target.test" />
+        <item itemvalue="Makefile Target.migratedown" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Go Test.go test github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Test.TestTransferTx in github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Build.go build github/techschool/simplebank" />
+        <item itemvalue="Go Test.TestGetUser in github/techschool/simplebank/db/sqlc" />
       </list>
     </recent_temporary>
   </component>
