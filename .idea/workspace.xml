@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment="." />
+    <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/Util/password.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Util/password_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
