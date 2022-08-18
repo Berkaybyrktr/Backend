@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Util/password.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/password_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/transfer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/user_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +59,17 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Makefile Target.test">
-    <configuration name="TestGetUser in github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github/techschool/simplebank/db/sqlc">
+    <configuration name="TestPassword in github/techschool/simplebank/Util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SimpleBank" />
-      <working_directory value="$PROJECT_DIR$/db/sqlc" />
+      <working_directory value="$PROJECT_DIR$/Util" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/techschool/simplebank/db/sqlc" />
+      <package value="github/techschool/simplebank/Util" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestGetUser\E$" />
+      <pattern value="^\QTestPassword\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github/techschool/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github/techschool/simplebank/db/sqlc" />
+        <item itemvalue="Go Test.TestPassword in github/techschool/simplebank/Util" />
         <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.migratedown" />
         <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Go Test.go test github/techschool/simplebank/db/sqlc" />
-        <item itemvalue="Go Test.TestGetUser in github/techschool/simplebank/db/sqlc" />
       </list>
     </recent_temporary>
   </component>
@@ -134,5 +135,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Util/password_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
