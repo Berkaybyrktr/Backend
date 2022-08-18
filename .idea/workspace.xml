@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2dc1421-673d-4aaf-a75d-8726169d8588" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/db/query/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/user.sql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/user_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.env" beforeDir="false" afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mock/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/mock/store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/models.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/querier.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/querier.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

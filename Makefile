@@ -18,5 +18,7 @@ graphql:
 	go run server.go
 mock:
 	mockgen -package mockdb -destination db/mock/store.go  github/techschool/simplebank/db/sqlc Store
+graphile:
+	postgraphile --connection postgresql://root:secret@localhost:5432/simple_bank
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server graphql mock
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server graphql mock graphile
